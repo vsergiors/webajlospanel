@@ -274,3 +274,72 @@ body{
 .pricing-btn-featured:hover {
     background-color: #eeeeee;
 }
+
+.site-footer {
+    margin-top: 40px;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid var(--card-border);
+}
+
+.footer-discord {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 1rem;
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+    padding: 30px 20px;
+}
+
+.footer-discord-title {
+    margin: 0 0 8px 0;
+    font-size: 1.4rem;
+}
+
+.footer-discord-text {
+    margin: 0 0 20px 0;
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+.footer-discord-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--accent);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px 28px;
+    border-radius: 2rem;
+    transition: opacity 0.2s ease;
+}
+
+.footer-discord-btn:hover {
+    opacity: 0.85;
+}
+
+.footer-links {
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+}
+
+.footer-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer-separator {
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+.footer-copy {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin: 0;
+}
